@@ -1,0 +1,142 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello Sir",
+        "Hello Ma'am",
+        "Greetings",
+        "Hi there",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hello, how can I assist you with information about the school today?",
+        "Good to hear from you! How can I help with your queries about the school?",
+        "Welcome, feel free to ask any questions about the school!",
+        "Hi there! What information can I provide you with today?",
+        "Greetings! Let me know how I can support you with any school-related inquiries."
+      ]
+    },
+    {
+      "tag": "assistance_options",
+      "patterns": [
+        "What can you assist me with?",
+        "What can I ask you?",
+        "What questions can I ask?",
+        "What topics do you cover?"
+          ],
+      "responses": [
+        "You can ask me about the following topics: \n1. School information (programs, courses, and activities) \n2. Tuition fees and financial aid \n3. Exam schedules \n4. Contact information for the school.",
+        "I can assist you with inquiries regarding: \n- Programs and courses offered by the school \n- Tuition fees and available financial aid \n- Exam schedules and dates \n- How to contact the school for further inquiries."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Farewell",
+        "Talk to you soon"
+      ],
+      "responses": [
+        "Goodbye, feel free to return if you have more questions.",
+        "See you again soon! Best of luck with your studies.",
+        "Thank you for reaching out. Have a great day ahead!",
+        "Farewell! Don't hesitate to contact me if you need further assistance.",
+        "Goodbye! Wishing you success in your upcoming exams and projects."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks a lot",
+        "You're very helpful",
+        "I appreciate it"
+      ],
+      "responses": [
+        "You're welcome! I'm happy to assist you.",
+        "Anytime! Feel free to ask if you have more questions.",
+        "Glad to be of help! Have a great day.",
+        "It's my pleasure to assist you. Let me know if you need anything else.",
+        "You're very welcome! I'm always here to help."
+      ]
+    },
+     {
+      "tag": "school_programs",
+      "patterns": [
+        "What programs does the school offer?",
+        "What courses are available?",
+        "Can you tell me about the programs offered?"
+      ],
+      "responses": [
+        "The school offers various programs including Computer Science, Business Administration, and Engineering. You can explore more on our website.",
+        "We have several programs such as Computer Science, Business, and Engineering. Extracurricular activities are also available to develop skills."
+      ]
+    },
+    {
+      "tag": "school_activities",
+      "patterns": [
+        "What activities can students participate in?",
+        "What extracurricular activities are available?",
+        "Are there any clubs or workshops?"
+      ],
+      "responses": [
+        "Our school organizes workshops, sports events, and clubs for students to join and enhance their experience. Don't hesitate to ask for more details!"
+      ]
+    },
+    {
+      "tag": "school_address",
+      "patterns": [
+        "What is the address of the school?",
+        "Where is the school located?",
+        "Can you provide the school's location?"
+      ],
+      "responses": [
+        "The school's address is 273 An Dương Vương, Phường 3, Quận 5, Thành phố Hồ Chí Minh. You are welcome to visit anytime!",
+        "You can find us at 273 An Dương Vương, Phường 3, Quận 5, Thành phố Hồ Chí Minh. Feel free to stop by during working hours."
+      ]
+    },
+    {
+      "tag": "tuition_fee",
+      "patterns": [
+        "How much is the tuition fee?",
+        "What are the fees for courses?",
+        "Is there any financial aid available for students?"
+      ],
+      "responses": [
+        "Tuition fees depend on the course. You can find more details on the school's website.",
+        "The tuition varies based on the program you're interested in. I suggest checking the fee structure on our website for accurate information.",
+        "We offer financial aid and scholarships for students with academic excellence or in need of assistance. Visit our financial aid section for details.",
+        "Tuition fees can be different for each course, and we also provide financial aid opportunities for eligible students."
+      ]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": [
+        "When are the exams?",
+        "Where can I find the exam schedule?",
+        "How do I check my exam dates?"
+      ],
+      "responses": [
+        "You can find the exam schedule on the student management system or the school website.",
+        "Exam dates are usually sent via email. Make sure to check your inbox or student portal.",
+        "The exam schedule is updated on our website and through the student management system. If you have any trouble accessing it, feel free to ask.",
+        "Your exam dates can also be found on your student dashboard. Be sure to log in regularly for updates!"
+      ]
+    },
+    {
+      "tag": "contact_info",
+      "patterns": [
+        "How can I contact the school?",
+        "What is the school's phone number?",
+        "Who can I email for inquiries?"
+      ],
+      "responses": [
+        "You can contact us via email at nguyendqui@gmail.com or visit https://thongtindaotao.sgu.edu.vn/#/home for more information.",
+        "Feel free to send an email to nguyendqui@gmail.com, or visit our contact page for phone numbers and more.",
+        "If you need more specific assistance, feel free to reach us at the provided email or check our website for contact details."
+      ]
+    }
+  ]
+}
